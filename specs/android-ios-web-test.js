@@ -10,6 +10,8 @@ describe("Web automation real device", () => {
     it("Changes text", async () => {
       var text = await $("id=location");
       await text.waitForDisplayed({ timeout: 30000 });
+      var temptxt = text.getText();
+      eval(temptext);
       await text.click();
     });
   
