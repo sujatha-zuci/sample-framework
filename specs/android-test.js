@@ -41,6 +41,8 @@ describe("Proverbial APK", () => {
     driver.back();
   });
 
+  //adding one more comment1
+
   // it("Browser", async () => {
   //   var browser = await $("id=Browser");
   //   await browser.waitForDisplayed({ timeout: 30000 });
